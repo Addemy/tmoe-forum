@@ -3,7 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #BBBBBB;
+}
 .menu-container{
+  background-color: #FFFFFF;
   display: flex;
   justify-content: center;
   margin: 0 20px;
@@ -57,9 +61,34 @@
 .head-item{
   flex: 1;
   background-color: #111111;
-  margin: 5px 40px;
+  margin: 5px 60px;
   height: 200px;
 }
 h5{
   padding: 0 40px;
+}
+.post-header{
+  background-color: #FFFFFF;
+  height: 70px;
+  display: flex;
+  padding: 5px 10px;
+  justify-content: space-around;
+  margin: 5px 20px;
+}
+.button-link{
+  border-radius: 3px;
+  display: flex;
+  width: 30px
+  padding:5px;
+  background-color: #DDDDDD;
+  color: blue;
+}
+.icon{
+  display: flex;
+}
+.post-item{
+  height: 500px;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+  margin: 5px 20px;
 }
