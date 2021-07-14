@@ -10,7 +10,7 @@ body{
   background-color: #FFFFFF;
   display: flex;
   justify-content: center;
-  margin: 0 20px;
+  margin: 0 0 20px 0;
 }
 .menu{
   width: 100%;
